@@ -4,7 +4,7 @@
         "target": "es2018",
         "sourceMap": true,
         "outDir": "../dist",
-        "declaration": false,
+        "declaration": true,
         "experimentalDecorators": true,
         "removeComments": true,
         "preserveConstEnums": true,

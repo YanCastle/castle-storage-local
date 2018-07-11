@@ -4,8 +4,8 @@
   "description": "",
   "main": "dist/index.js",
   "files": [
-    "dist/**/*.js",
-    "dist/**/*.d.js"
+    "dist/index.js",
+    "dist/index.d.js"
   ],
   "types": "dist/index.d.ts",
   "scripts": {
