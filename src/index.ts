@@ -29,10 +29,10 @@ export default class LocalStorage {
     }
     async isDirectory(path: string) {
         try {
-
+            return (await fs.statAsync(path)).isDirectory()
         } catch (error) {
 
         }
-        return (await fs.statAsync(path)).isDirectory()
+        return false;
     }
 }
